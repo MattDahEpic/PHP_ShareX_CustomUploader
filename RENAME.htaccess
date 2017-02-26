@@ -1,0 +1,7 @@
+RewriteEngine on
+#all files and directories
+RewriteCond %{REQUEST_FILENAME} !-f [OR]
+RewriteCond %{REQUEST_FILENAME} !-d
+#pass to index as perameter
+RewriteRule .* - [L]
+RewriteRule (.*) index.php?selector=$1 [QSA]
