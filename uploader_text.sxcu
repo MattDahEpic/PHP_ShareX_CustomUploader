@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Custom Text Uploader",
+  "DestinationType": "TextUploader",
+  "RequestType": "POST",
+  "RequestURL": "https://i.example.com/",
+  "Arguments": {
+    "type": "text",
+    "value": "$input$",
+    "pass": "changeme123"
+  },
+  "ResponseType": "Text"
+}

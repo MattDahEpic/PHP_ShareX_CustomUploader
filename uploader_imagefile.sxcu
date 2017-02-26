@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Custom Image/File Uploader",
+  "DestinationType": "ImageUploader, FileUploader",
+  "RequestType": "POST",
+  "RequestURL": "https://i.example.com/",
+  "FileFormName": "fileToUpload",
+  "Arguments": {
+    "type": "file",
+    "value": "valuenotneeded",
+    "pass": "changeme123"
+  },
+  "Headers": {
+    "Content-Disposition": "form-data"
+  },
+  "ResponseType": "Text"
+}
